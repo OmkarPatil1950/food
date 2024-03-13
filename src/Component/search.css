@@ -1,0 +1,59 @@
+.search-container {
+    position: fixed;
+    display: inline-block;
+  }
+  
+ 
+  .fixed-dropdown {
+    position: fixed;
+    top: calc(100% + 4px);
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 1px;
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  /* search.css */
+
+  .dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
+  /* .fixed-dropdown {
+    max-height: 400px;
+  } */
+  
+  .dropdown li {
+    padding: 8px 16px;
+    
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .dropdown li:hover {
+    background-color: #f3f4f6;
+  }
+  
+  .dropdown li:first-child {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+  }
+  
+ 
+
+  /* Add any additional styles or modifications as needed */
+  

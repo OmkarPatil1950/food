@@ -1,0 +1,58 @@
+.Card-img-top {
+  height: 300px;
+  object-fit: cover;
+}
+
+.Card-img-top {
+  height: 300px;
+  object-fit: cover;
+}
+
+.Card-text:first-child {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.Card-text:first-child span {
+  font-weight: bold;
+  color: #ff5722; /* change to your desired color */
+}
+.Card-text:last-child {
+  font-size: 16px;
+  margin-top: 10px;
+  line-height: 1.5;
+}
+.form-check-label {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.form-group:nth-child(2) {
+  margin-top: 20px;
+}
+
+.form-control {
+  width: 150px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.btn-primary {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn-success {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+h1:last-child {
+  margin-top: 50px;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}

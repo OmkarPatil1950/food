@@ -1,0 +1,11 @@
+.view-container {
+    /* Add any custom styles to the container if needed */
+  
+    /* Override button styles to make them visible */
+    .React360View .btn-prev,
+    .React360View .btn-next {
+      background-color: rgba(0, 0, 0, 0.5);
+      color: white;
+    }
+  }
+  
